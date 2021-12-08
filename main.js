@@ -8,6 +8,7 @@ const params = {
   Bucket: "sequita-bucket-01", // The name of the bucket. For example, 'sample_bucket_101'.
   Key: "hello_sequita.txt", // The name of the object. For example, 'sample_upload.txt'.
   Body: "Hello Everyone! It is a beautiful day!", // The content of the object. For example, 'Hello world!".
+  ContentType: "text/plain"
   // s3: "x-amz-grant-full-control"
   // BucketPolicy: {
   //   "Version": "2012-10-17",
